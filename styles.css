@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.counter {
+  font-size: 5rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.97);
+}
+
+.increase:hover {
+  background-color: lightgreen;
+}
+.clear:hover {
+  background-color: lightgray;
+}
+.decrease:hover {
+  background-color: lightpink;
+}
